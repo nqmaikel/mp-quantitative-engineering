@@ -1,3 +1,7 @@
+![MP Quantitative Engineering project cover](assets/showcase/cover.png)
+
+*English adaptation of the project branding.*
+
 <div align="center">
 
 <h1>MP Quantitative Engineering</h1>
@@ -26,9 +30,25 @@ The website gives visitors a structured way to understand the available services
 - Inventory optimization service information.
 - An editorial section with article and feed structure.
 
+## Visual overview
+
+![MP Quantitative Engineering feature overview](assets/showcase/overview.png)
+
 ## High-level workflow
 
-Visitors can start with a business need, explore the relevant service and read about the proposed working method. Related service and editorial sections provide further context for understanding the offering.
+```mermaid
+flowchart LR
+    A["Business need"] --> B["Relevant service"]
+    B --> C["Working method"]
+    C --> D["Related services and insights"]
+
+    classDef stage fill:#f1f5f9,stroke:#64748b,color:#0f172a
+    classDef outcome fill:#e0e7ff,stroke:#4f46e5,color:#312e81
+    class A,B,C stage
+    class D outcome
+```
+
+Service, methodology and editorial pages give visitors context for understanding the offering before considering a development project.
 
 ## Stack
 
@@ -40,6 +60,6 @@ Website project bringing service information, methodology and editorial content 
 
 ## About this repository
 
-This repository is a public showcase. Website source code, internal business material and configuration remain private; only this English project overview is published.
+This repository is a public showcase. Only presentation material is published; source code and private data remain private.
 
 **Last showcase review:** 2026-09-12 (Europe/Paris).
