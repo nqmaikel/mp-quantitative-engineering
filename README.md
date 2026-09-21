@@ -99,4 +99,4 @@ The screenshots show the real public site. The architecture is grounded in the i
 
 This repository is the public showcase for MP Quantitative Engineering's website. It contains an English explanation, authentic page captures and an implementation-based architecture diagram. The source code and operational configuration remain private.
 
-**Last showcase review:** 2026-09-12 (Europe/Paris).
+**Last showcase review:** 2026-09-20 (Europe/Paris).
